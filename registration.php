@@ -26,9 +26,9 @@
        <tr>
          <th class="text">Username:</th>
           <td>
-	    <input class="input-box" type="text" id="uname" name="uname" placeholder="Enter your username" required/>
-	    <div class="requirements" id="uname_error" name="uname_error"/>
-	 </td>
+	          <input class="input-box" type="text" id="uname" name="uname" placeholder="Enter your username" required/>
+	          <div class="requirements" id="uname_error" name="uname_error"/>
+	        </td>
        </tr>
        <tr>
         <th class="text" style="vertical-align: top">Password:</th>
@@ -60,9 +60,9 @@
        <tr>
          <th class="text">Email:</th>
          <td>
-	    <input class="input-box" type="text" id="email" name="email" placeholder="Enter your email address" required />
-	    <div class="requirements" id="email_error" name="email_error"/>
-	 </td>
+	          <input class="input-box" type="text" id="email" name="email" placeholder="Enter your email address" required />
+	          <div class="requirements" id="email_error" name="email_error"/>
+	       </td>
        </tr>
     </table>
     <div class="g-recaptcha" data-sitekey="<?php echo $_settings['reCaptcha']['client_key']?>"></div> 
